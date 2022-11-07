@@ -150,17 +150,37 @@ Add a = button and make all actions align better:
             resultLabel.text = "\(text)\(tag)"
 ```
 Also add targets to all buttons:
-
-
-
-
-
-
-
-
-
-
-
+```swift
+buttonX.addTarget(self, action: #selector(numberPressed(_:)), for: .touchUpInside)
+```
+Now the number buttons we pressed are responding and displaying on screen:<br/>
+[number pressed responded and displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/number%20pressed%20responded%20and%20displayed%20.png)<br/>
+Use switch statement to enable each action:
+```swift
+ switch operation {
+                case .add:
+                    let result = firstNumber + secondNumber
+                    resultLabel.text = "\(result)"
+                    break
+                case .subtract:
+                    let result = firstNumber - secondNumber
+                    resultLabel.text = "\(result)"
+                    break
+                case .multiply:
+                    let result = firstNumber * secondNumber
+                    resultLabel.text = "\(result)"
+                    break
+                case .divide:
+                    let result = firstNumber / secondNumber
+                    resultLabel.text = "\(result)"
+                    break
+}
+```
+Now all mathematical operations work:<br/>
+[8+9=17 addition works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/8%2B9%3D17%20addition%20works.png)<br/> 
+[55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/55-6%3D49%20subtraction%20works.png)<br/> 
+[25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/25x4%3D100%20multiplication%20works.png)<br/> 
+[260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/260:2%20%3D%20130%20division%20works.png)<br/> 
 
 # Testing Result 
 [button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%20zero%20displayed.png)<br/> 
@@ -169,6 +189,11 @@ Also add targets to all buttons:
 [clear all and all mathematical operations displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/clear%20all%20and%20all%20mathematical%20operations%20displayed.png)<br/> 
 [initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/initial%20result%20label%20displayed.png)<br/>
 [better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/better%20aligned%20calculator.png)<br/>
+[number pressed responded and displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/number%20pressed%20responded%20and%20displayed%20.png)<br/>
+[8+9=17 addition works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/8%2B9%3D17%20addition%20works.png)<br/> 
+[55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/55-6%3D49%20subtraction%20works.png)<br/> 
+[25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/25x4%3D100%20multiplication%20works.png)<br/> 
+[260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/260:2%20%3D%20130%20division%20works.png)<br/> 
 
 
 
