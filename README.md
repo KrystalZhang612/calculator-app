@@ -28,7 +28,7 @@ A simple and handy calculator application developed using Swift.
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
-[Author]()
+[Author](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#author)
 # Compatibility
 |   OS             | Supported          |
 | -------          | ------------------ |
@@ -194,6 +194,7 @@ Now all mathematical operations work:<br/>
 [55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/55-6%3D49%20subtraction%20works.png)<br/> 
 [25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/25x4%3D100%20multiplication%20works.png)<br/> 
 [260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/260:2%20%3D%20130%20division%20works.png)<br/> 
+# Tags and Topics 
 
 
 # Author
