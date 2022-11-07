@@ -56,7 +56,25 @@ Add IBoutlets in [ViewController.swift](https://github.com/KrystalZhang612/Kryst
 ```swift 
 @IBOutlet var holder: UIView!
 ```
+## ***Add buttons:***
+Set up the zero button and make it display at the bottom center:
+```swift 
+ private func setupNumberPad() {
+        let buttonSize = view.frame.size.width / 4
+        let zeroButton = UIButton(frame: CGRect(x: 0, y:
+holder.frame.size.height-buttonSize, width: buttonSize*3, height:
+buttonSize))
+        zeroButton.setTitleColor(.black, for: .normal)
+        zeroButton.backgroundColor = .white
+        zeroButton.setTitle("0", for: .normal)
+        holder.addSubview(zeroButton)
+}
+```
+button zero displayed.PNG
 
+
+
+# Testing Result 
 
 
 
