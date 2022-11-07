@@ -9,6 +9,12 @@ A simple and handy calculator application developed using Swift.
 # Calculator App Overview:
 Addition
 <p align = "center"> 
-<img src ="https://user-images.githubusercontent.com/72481348/200421857-769879b6-b24c-4a57-977f-b30cb330fcea.mov" width="380" height="841"/> 
+  <img src ="https://user-images.githubusercontent.com/72481348/200421857-769879b6-b24c-4a57-977f-b30cb330fcea.mov" width="380" height="841"/>&nbsp; 
+  <img src ="https://user-images.githubusercontent.com/72481348/200422241-f2319e77-0732-415b-ac4a-04a1a30781da.mov" width = "380" height ="841"/> 
+
 </p> 
+
+
+
+
 
