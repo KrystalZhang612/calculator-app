@@ -8,7 +8,7 @@ A simple and handy calculator application developed using Swift.
 
 # Calculator App Overview:
 <pre> 
-              Addition Overview:                                     Subtraction Overview: 
+              Addition Overview:                             Subtraction Overview: 
 </pre> 
 <p align = "center"> 
   <img src ="https://user-images.githubusercontent.com/72481348/200421857-769879b6-b24c-4a57-977f-b30cb330fcea.mov" width="380" height="841"/>&nbsp; 
