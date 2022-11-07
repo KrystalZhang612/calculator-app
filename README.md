@@ -25,7 +25,7 @@ A simple and handy calculator application developed using Swift.
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#synchronous-developing-notes)<br/> 
-[Testing Result]()<br/> 
+[Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#testing-result)<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
@@ -70,11 +70,24 @@ buttonSize))
         holder.addSubview(zeroButton)
 }
 ```
-button zero displayed.PNG
+[button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%20zero%20displayed.png)<br/> 
+Now add 1 2 3 buttons above using a for loop:
+```swift 
+  for x in 0..<3 {
+        let button1 = UIButton(frame: CGRect(x: buttonSize *
+CGFloat(x), y: holder.frame.size.height-(buttonSize*2), width:
+buttonSize, height: buttonSize))
+        button1.setTitleColor(.black, for: .normal)
+        button1.backgroundColor = .white
+        button1.setTitle("\(x+1)", for: .normal)
+        holder.addSubview(button1)
+}
+```
 
 
 
 # Testing Result 
+[button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%20zero%20displayed.png)<br/> 
 
 
 
