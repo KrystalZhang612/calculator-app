@@ -30,6 +30,14 @@ A simple and handy calculator application developed using Swift.
 [Tags and Topics]()<br/> 
 # Contribution
 [Author]()
+# Compatibility
+|   OS             | Supported          |
+| -------          | ------------------ |
+| iOS 10+          | :white_check_mark: |
+| < iOS 10         | :x:                |
+| macOS Mojave     | ✅                 |
+| macOS Monterey   | ✅                 |
+
 
 
 
