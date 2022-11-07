@@ -52,7 +52,10 @@ A simple and handy calculator application developed using Swift.
 </div>
 
 # Synchronous Developing Notes
-
+Add IBoutlets in [ViewController.swift](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/Calculator-App/ViewController.swift):
+```swift 
+@IBOutlet var holder: UIView!
+```
 
 
 
