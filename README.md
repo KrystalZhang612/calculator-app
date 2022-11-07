@@ -26,7 +26,7 @@ A simple and handy calculator application developed using Swift.
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#testing-result)<br/> 
-[Tags and Topics]()<br/> 
+[Tags and Topics](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#tags-and-topics)<br/> 
 # Contribution
 [Author](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#author)
 # Compatibility
@@ -195,7 +195,7 @@ Now all mathematical operations work:<br/>
 [25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/25x4%3D100%20multiplication%20works.png)<br/> 
 [260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/260:2%20%3D%20130%20division%20works.png)<br/> 
 # Tags and Topics 
-
+api, swiftui, xcode, swift, swift5, uikit, cgrect, calculator-app. 
 
 # Author
 Krystal Zhang
