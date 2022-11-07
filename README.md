@@ -23,7 +23,7 @@ A simple and handy calculator application developed using Swift.
 </p>
 
 # Build
-[Method to Run & Test the Project Locally]()<br/> 
+[Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
 [Synchronous Developing Notes]()<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
@@ -50,6 +50,7 @@ A simple and handy calculator application developed using Swift.
   <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg"  title ="SWIFT5" alt ="SWIFT5" width ="60" height="60"/>&nbsp;
   <img src ="https://github.com/KrystalZhang612/KrystalZhang-RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title ="SwiftUI" alt ="SwiftUI" width ="60" height="60"/>
 </div>
+
 # Synchronous Developing Notes
 
 
