@@ -46,6 +46,12 @@ A simple and handy calculator application developed using Swift.
 [Xcode 14.0.1 iOS 16 iPhone 14 Pro Simulator](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_0_1-release-notes)<br/>
 [Swift5](https://www.swift.org/blog/swift-5-released/)<br/>
 [SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>
+<div>
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/xcode/xcode-plain.svg" title ="Xcode" alt ="Xcode" width ="60" height="60"/>&nbsp;
+  <img src ="https://github.com/devicons/devicon/blob/master/icons/swift/swift-original.svg"  title ="SWIFT5" alt ="SWIFT5" width ="60" height="60"/>&nbsp;
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-RepliFlix/blob/main/swift%20ui%20symbol%20logo.png" title ="SwiftUI" alt ="SwiftUI" width ="60" height="60"/>
+</div>
+ 
 
 
 
