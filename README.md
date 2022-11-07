@@ -42,7 +42,10 @@ A simple and handy calculator application developed using Swift.
 ### Xcode must be `13.4` and higher versions with all Xcode dependencies updated.
 ### Compatible with `MacOS Monterey 12.0` or higher versions
 ### Run the project, choose Simulator `iPhone 14` or `iPhone 14 Pro` for best compatiability.
-
+# 🛠️  Developing Languages, Tools, and Techniques Needed
+[Xcode 14.0.1 iOS 16 iPhone 14 Pro Simulator](https://developer.apple.com/documentation/xcode-release-notes/xcode-14_0_1-release-notes)<br/>
+[Swift5](https://www.swift.org/blog/swift-5-released/)<br/>
+[SwiftUI](https://developer.apple.com/xcode/swiftui/)<br/>
 
 
 
