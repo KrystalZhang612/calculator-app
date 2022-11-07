@@ -22,6 +22,17 @@ A simple and handy calculator application developed using Swift.
   <img src ="https://user-images.githubusercontent.com/72481348/200423193-0f72aac9-4a2a-4ac4-baec-6e315dd7fb05.mov" width="380" height="841"/>
 </p>
 
+# Build
+[Method to Run & Test the Project Locally]()<br/> 
+[Prerequisites & Setups]()<br/> 
+[Synchronous Developing Notes]()<br/> 
+[Testing Result]()<br/> 
+[Tags and Topics]()<br/> 
+# Contribution
+[Author]()
+
+
+
 
 
 
