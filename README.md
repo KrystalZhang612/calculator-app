@@ -83,11 +83,92 @@ buttonSize, height: buttonSize))
         holder.addSubview(button1)
 }
 ```
+[button 1 2 3 displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%201%202%203%20displayed.png)<br/>
+Copy and paste the for loops twice and we got 0-9 buttons: <br/>
+[0-9 buttons all displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/0-9%20buttons%20all%20displayed.png)<br/>
+Add CLEAR ALL button:
+```swift 
+let clearButton = UIButton(
+frame: CGRect(x: 0, y: holder.frame.size.height-(buttonSize*5),
+   width: view.frame.size.width, height: buttonSize))
+    clearButton.setTitleColor(.black, for: .normal)
+    clearButton.backgroundColor = .white
+    clearButton.setTitle("Clear ALL", for: .normal)
+    holder.addSubview(clearButton)
+```
+Add mathematical operations:
+```swift 
+ let operations = ["+", "-", "x", "/"]
+    for x in 0..<4 {
+        let button4 = UIButton(frame: CGRect(x: buttonSize * 3, y:
+holder.frame.size.height-(buttonSize*CGFloat(x+1)), width: buttonSize,
+height: buttonSize))
+        button4.setTitleColor(.white, for: .normal)
+        button4.backgroundColor = .orange
+        button4.setTitle(operations[x], for: .normal)
+        holder.addSubview(button4)
+}
+```
+Now CLEAR ALL and all mathematical operations displayed:<br/>
+[clear all and all mathematical operations displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/clear%20all%20and%20all%20mathematical%20operations%20displayed.png)<br/> 
+Now to let the initial result label display, define result label:
+```swift 
+ private var resultLabel: UILabel = {
+        let label = UILabel()
+        label.text = "0"
+        label.textColor = .white
+        label.textAlignment = .right
+        label.font = UIFont(name: "Helvetica", size: 100)
+        return label
+}()
+```
+Confine the result label:
+```swift 
+  resultLabel.frame = CGRect(x: 20, y: clearButton.frame.origin.y -
+110.0, width: view.frame.size.width-40 , height:100 )
+  holder.addSubview(resultLabel)
+```
+Now the initial result label as 0 showing:<br/>
+[initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/initial%20result%20label%20displayed.png)<br/>
+Add a = button and make all actions align better:
+```swift 
+ clearButton.addTarget(self, action: #selector(clearResult), for:
+.touchUpInside)
+   }
+    @objc func clearResult(){
+        resultLabel.text="0"
+```
+[better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/better%20aligned%20calculator.png)<br/>
+## ***Make number pressed responding:***
+```swift 
+ @objc func numberPressed(_ sender: UIButton){
+        let tag = sender.tag - 1
+        if resultLabel.text == "0"{
+            resultLabel.text = "\(tag)"
+        }
+        else if let text = resultLabel.text {
+            resultLabel.text = "\(text)\(tag)"
+```
+Also add targets to all buttons:
+
+
+
+
+
+
+
+
+
 
 
 
 # Testing Result 
 [button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%20zero%20displayed.png)<br/> 
+[button 1 2 3 displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%201%202%203%20displayed.png)<br/>
+[0-9 buttons all displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/0-9%20buttons%20all%20displayed.png)<br/>
+[clear all and all mathematical operations displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/clear%20all%20and%20all%20mathematical%20operations%20displayed.png)<br/> 
+[initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/initial%20result%20label%20displayed.png)<br/>
+[better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/better%20aligned%20calculator.png)<br/>
 
 
 
