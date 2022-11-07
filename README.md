@@ -24,7 +24,7 @@ A simple and handy calculator application developed using Swift.
 
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
-[Synchronous Developing Notes]()<br/> 
+[Synchronous Developing Notes](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#synchronous-developing-notes)<br/> 
 [Testing Result]()<br/> 
 [Tags and Topics]()<br/> 
 # Contribution
