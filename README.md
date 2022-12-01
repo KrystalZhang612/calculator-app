@@ -182,6 +182,34 @@ Now all mathematical operations work:<br/>
 [260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/260%3A2%20%3D%20130%20division%20works.PNG)<br/> 
 
 # Testing Result 
+<p align = "center">
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/button%20zero%20displayed.PNG" width= "380" height = "848.818181">&nbsp; 
+  <img src = https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/button%201%202%203%20displayed.PNG"  width= "380" height = "848.818181">&nbsp;
+
+  
+  
+  
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/0-9%20buttons%20all%20displayed.PNG" width= "380" height = "848.818181">&nbsp;
+  <img src = "https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/clear%20all%20and%20all%20mathematical%20operations%20displayed.PNG">
+  
+
+[initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/initial%20result%20label%20displayed.PNG)
+
+[better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/better%20aligned%20calculator.PNG)
+
+[number pressed responded and displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/number%20pressed%20responded%20and%20displayed.PNG)
+
+
+[8+9=17 addition works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/8%2B9%3D17%20addition%20works.PNG)
+
+
+[55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/55-6%3D49%20subtraction%20works.PNG)
+
+
+[25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/25x4%3D100%20multiplication%20works.PNG)
+
+ [260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/260%3A2%20%3D%20130%20division%20works.PNG)
+
 
 # Tags and Topics 
 api, swiftui, xcode, swift, swift5, uikit, cgrect, calculator-app. 
