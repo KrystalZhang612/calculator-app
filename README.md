@@ -11,15 +11,15 @@ A simple and handy calculator application developed using Swift.
               Addition Overview:                             Subtraction Overview: 
 </pre> 
 <p align = "center"> 
-  <img src ="https://user-images.githubusercontent.com/72481348/200421857-769879b6-b24c-4a57-977f-b30cb330fcea.mov" width="380" height="841"/>&nbsp; 
-  <img src ="https://user-images.githubusercontent.com/72481348/200422241-f2319e77-0732-415b-ac4a-04a1a30781da.mov" width = "380" height ="841"/> 
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/CalculatorApp%20Addition%20Overview.mov" width="380" height="841"/>&nbsp; 
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/Calculator%20App%20Subtraction%20Overview.mov" width = "380" height ="841"/> 
 </p> 
 <pre> 
               Multiplication Overview:                        Division Overview: 
 </pre>
 <p align = "center">
-  <img src ="https://user-images.githubusercontent.com/72481348/200423097-97a4b292-678b-477a-9e36-3d0f7ba5f247.mov" width="380" height="841"/>&nbsp; 
-  <img src ="https://user-images.githubusercontent.com/72481348/200423193-0f72aac9-4a2a-4ac4-baec-6e315dd7fb05.mov" width="380" height="841"/>
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/Calculator%20App%20Multiplication%20Overview.mov" width="380" height="841"/>&nbsp; 
+  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/Calculator%20App%20Division%20Overview.mov" width="380" height="841"/>
 </p>
 
 # Build
