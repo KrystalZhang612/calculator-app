@@ -69,7 +69,7 @@ buttonSize))
         holder.addSubview(zeroButton)
 }
 ```
-[button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%20zero%20displayed.png)<br/> 
+[button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/button%20zero%20displayed.PNG)<br/> 
 Now add 1 2 3 buttons above using a for loop:
 ```swift 
   for x in 0..<3 {
@@ -82,9 +82,9 @@ buttonSize, height: buttonSize))
         holder.addSubview(button1)
 }
 ```
-[button 1 2 3 displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%201%202%203%20displayed.png)<br/>
+[button 1 2 3 displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/button%201%202%203%20displayed.PNG)<br/>
 Copy and paste the for loops twice and we got 0-9 buttons: <br/>
-[0-9 buttons all displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/0-9%20buttons%20all%20displayed.png)<br/>
+[0-9 buttons all displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/0-9%20buttons%20all%20displayed.PNG)<br/>
 Add CLEAR ALL button:
 ```swift 
 let clearButton = UIButton(
@@ -109,7 +109,7 @@ height: buttonSize))
 }
 ```
 Now CLEAR ALL and all mathematical operations displayed:<br/>
-[clear all and all mathematical operations displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/clear%20all%20and%20all%20mathematical%20operations%20displayed.png)<br/> 
+[clear all and all mathematical operations displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/clear%20all%20and%20all%20mathematical%20operations%20displayed.PNG)<br/> 
 Now to let the initial result label display, define result label:
 ```swift 
  private var resultLabel: UILabel = {
@@ -128,7 +128,7 @@ Confine the result label:
   holder.addSubview(resultLabel)
 ```
 Now the initial result label as 0 showing:<br/>
-[initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/initial%20result%20label%20displayed.png)<br/>
+[initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/initial%20result%20label%20displayed.PNG)<br/>
 Add a = button and make all actions align better:
 ```swift 
  clearButton.addTarget(self, action: #selector(clearResult), for:
@@ -137,7 +137,7 @@ Add a = button and make all actions align better:
     @objc func clearResult(){
         resultLabel.text="0"
 ```
-[better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/better%20aligned%20calculator.png)<br/>
+[better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/better%20aligned%20calculator.PNG)<br/>
 ## ***Make number pressed responding:***
 ```swift 
  @objc func numberPressed(_ sender: UIButton){
@@ -153,7 +153,7 @@ Also add targets to all buttons:
 buttonX.addTarget(self, action: #selector(numberPressed(_:)), for: .touchUpInside)
 ```
 Now the number buttons we pressed are responding and displaying on screen:<br/>
-[number pressed responded and displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/number%20pressed%20responded%20and%20displayed%20.png)<br/>
+[number pressed responded and displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/number%20pressed%20responded%20and%20displayed.PNG)<br/>
 Use switch statement to enable each action:
 ```swift
  switch operation {
@@ -176,23 +176,13 @@ Use switch statement to enable each action:
 }
 ```
 Now all mathematical operations work:<br/>
-[8+9=17 addition works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/8%2B9%3D17%20addition%20works.png)<br/> 
-[55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/55-6%3D49%20subtraction%20works.png)<br/> 
-[25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/25x4%3D100%20multiplication%20works.png)<br/> 
-[260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/260:2%20%3D%20130%20division%20works.png)<br/> 
+[8+9=17 addition works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/8%2B9%3D17%20addition%20works.PNG)<br/> 
+[55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/55-6%3D49%20subtraction%20works.PNG)<br/> 
+[25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/25x4%3D100%20multiplication%20works.PNG)<br/> 
+[260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/260%3A2%20%3D%20130%20division%20works.PNG)<br/> 
 
 # Testing Result 
-[button zero displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%20zero%20displayed.png)<br/> 
-[button 1 2 3 displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/button%201%202%203%20displayed.png)<br/>
-[0-9 buttons all displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/0-9%20buttons%20all%20displayed.png)<br/>
-[clear all and all mathematical operations displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/clear%20all%20and%20all%20mathematical%20operations%20displayed.png)<br/> 
-[initial result label displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/initial%20result%20label%20displayed.png)<br/>
-[better aligned calculator.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/better%20aligned%20calculator.png)<br/>
-[number pressed responded and displayed.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/number%20pressed%20responded%20and%20displayed%20.png)<br/>
-[8+9=17 addition works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/8%2B9%3D17%20addition%20works.png)<br/> 
-[55-6=49 subtraction works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/55-6%3D49%20subtraction%20works.png)<br/> 
-[25x4=100 multiplication works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/25x4%3D100%20multiplication%20works.png)<br/> 
-[260/2=130 division works.PNG](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/260:2%20%3D%20130%20division%20works.png)<br/> 
+
 # Tags and Topics 
 api, swiftui, xcode, swift, swift5, uikit, cgrect, calculator-app. 
 
