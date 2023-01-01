@@ -6,21 +6,6 @@ A simple and handy calculator application developed using Swift.
 
 ### ***Please carefully read [LICENSE.md](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/LICENSE) about the Open Source restrictions and the personal use policy of this project under [GPL-3.0 license](https://www.gnu.org/licenses/gpl-3.0.en.html), any commericial uses on this project by other than the owner [@KrystalZhang612](https://github.com/KrystalZhang612) or the authorized users and organizations, will be subjected to copyright violation with sebsequent potential legal concerns.***
 
-# Calculator App Overview:
-<pre> 
-              Addition Overview:                             Subtraction Overview: 
-</pre> 
-<p align = "center"> 
-  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/CalculatorApp%20Addition%20Overview.mov" width="380" height="841"/>&nbsp; 
-  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/Calculator%20App%20Subtraction%20Overview.mov" width = "380" height ="841"/> 
-</p> 
-<pre> 
-              Multiplication Overview:                        Division Overview: 
-</pre>
-<p align = "center">
-  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/Calculator%20App%20Multiplication%20Overview.mov" width="380" height="841"/>&nbsp; 
-  <img src ="https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/testing-result-Calculator-App/Calculator%20App%20Division%20Overview.mov" width="380" height="841"/>
-</p>
 
 # Build
 [Method to Run & Test the Project Locally](https://github.com/KrystalZhang612/KrystalZhang-Calculator-App/blob/main/README.md#method-to-run--test-the-project-locally)<br/> 
